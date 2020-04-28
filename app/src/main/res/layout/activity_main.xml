@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Which Device use Android OS ?"
+        android:textSize="18sp" />
+
+    <com.mahipal.customchipcard.ChipCard
+        android:id="@+id/cc_oppo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:chipText="Oppo" />
+
+    <com.mahipal.customchipcard.ChipCard
+        android:id="@+id/cc_blackberry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:chipText="Blackberry" />
+
+    <com.mahipal.customchipcard.ChipCard
+        android:id="@+id/cc_apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:chipText="Apple" />
+
+    <com.mahipal.customchipcard.ChipCard
+        android:id="@+id/cc_samsung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:chipText="Samsung" />
+
+    <com.mahipal.customchipcard.ChipCard
+        android:id="@+id/cc_nokia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:chipText="Nokia" />
+
+</LinearLayout>
