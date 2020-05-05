@@ -23,7 +23,7 @@ ________________________________________________________________________________
 Add this to your layout file:
 
 <com.mahipal.customchipcard.ChipCard
-	 id="@+id/chip_card"
+   id="@+id/chip_card"
    android:layout_width="wrap_content"
    android:layout_height="wrap_content"
    app:chipText="Mahipal" />
@@ -31,8 +31,8 @@ Add this to your layout file:
 Click listener of ChipCard :
 
 chip_card.setOnChipSelectedListener { view, isChecked ->
-		if(isChecked) {
-			Toast.makeText(this@MainActivity,"Chip card selected",Toast.LENGTH_SHORT).show()
-		}
+     if(isChecked) {
+        Toast.makeText(this@MainActivity,"Chip card selected",Toast.LENGTH_SHORT).show()
+     }
 }
 	 
